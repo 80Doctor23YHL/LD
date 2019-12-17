@@ -1,0 +1,20 @@
+{
+    "list": [
+        {
+            "userId": "01679810256D4A29A687192238C841C4",
+            "userName": "zhangjingli",
+            "realName": "张敬礼",
+            "password": "e10adc3949ba59abbe56e057f20f883e",
+            "roleId": "1",
+            "status": "1"
+        },
+        {
+            "userId": "85B28F89986F4E95B049BAE04A084CF2",
+            "userName": "baijingli",
+            "realName": "白景丽",
+            "password": "e10adc3949ba59abbe56e057f20f883e",
+            "roleId": "1",
+            "status": "1"
+        }
+    ]
+}

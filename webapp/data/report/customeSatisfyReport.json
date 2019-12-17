@@ -1,0 +1,20 @@
+{
+    "list": [
+        {
+            "custSatisfy": "1",
+            "custCount": 1,
+            "custRate": 25
+        },
+        {
+            "custSatisfy": "3",
+            "custCount": 2,
+            "custRate": 50
+        },
+        {
+            "custSatisfy": "5",
+            "custCount": 1,
+            "custRate": 25
+        }
+    ],
+    "RET_CODE": "success"
+}

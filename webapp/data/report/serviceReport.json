@@ -1,0 +1,20 @@
+{
+    "list": [
+        {
+            "serType": "1",
+            "serviceCount": 2,
+            "serviceRate": 50
+        },
+        {
+            "serType": "2",
+            "serviceCount": 1,
+            "serviceRate": 25
+        },
+        {
+            "serType": "4",
+            "serviceCount": 1,
+            "serviceRate": 25
+        }
+    ],
+    "RET_CODE": "success"
+}

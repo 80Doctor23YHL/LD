@@ -1,0 +1,10 @@
+{
+    "RET_OBJ": {
+        "userId": "0",
+        "userName": "admin",
+        "realNam": "管理员",
+        "password": "123456",
+        "roleId": "4",
+        "status": "1"
+    }
+}

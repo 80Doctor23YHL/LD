@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>服务处理 -客户关系管理系统</title>
+</head>
+<body>
+
+	<!-- 页头开始 -->
+	<script src="../../resources/js/common/header.js"></script>
+	<script src="../../resources/js/common/headerbar.js"></script>
+	<!-- 页头结束 -->
+
+	<!-- 左侧菜单导航开始 -->
+	<script src="../../resources/js/common/sidebar.js"></script>
+	<!-- 左侧菜单导航结束 -->
+
+	<div id="main" role="main">
+		<!-- 路径导航开始 -->
+		<div id="ribbon">
+			<ol class="breadcrumb">
+				<li>服务处理</li>
+				<li>服务列表</li>
+			</ol>
+		</div>
+		<!-- 路径导航结束 -->
+
+		<!-- 主体内容 开始 -->
+		<div id="content">
+			<!-- 查询行  -->
+			<div class="row">
+				<article class="col-sm-12 col-md-12 col-lg-12">
+					<div class="jarviswidget" id="wid-id-6"
+						data-widget-editbutton="false" data-widget-custombutton="false">
+						<header>
+							<span class="widget-icon"> <i class="fa fa-edit"></i>
+							</span>
+							<h2>查询信息</h2>
+						</header>
+						<div>
+							<div class="widget-body no-padding">
+								<form action="" method="post" id="queryForm" class="smart-form">
+									<fieldset>
+										<div class="row">
+											<section class="col col-lg-1 col-md-1 col-sm-1 col-xs-1">
+												<label class="label text-right">客户</label>
+											</section>
+											<section class="col col-lg-5 col-md-5 col-sm-5 col-xs-5">
+												<label class="input"> <input type="text"
+													id="custName" name="custName" placeholder="">
+												</label>
+											</section>
+											<section class="col col-lg-1 col-md-1 col-sm-1 col-xs-1">
+												<label class="label text-right">服务类型</label>
+											</section>
+											<section class="col col-lg-5 col-md-5 col-sm-5 col-xs-5">
+												<label class="select"> <select id="serType"
+													name="serType">
+														<option value="">全部</option>
+														<option value="1">咨询</option>
+														<option value="2">建议</option>
+														<option value="3">投诉</option>
+														<option value="4">其它</option>
+												</select> <i></i>
+												</label>
+											</section>
+										</div>
+										<div class="row">
+											<section class="col col-lg-1 col-md-1 col-sm-1 col-xs-1">
+												<label class="label text-right">服务概要</label>
+											</section>
+											<section class="col col-lg-5 col-md-5 col-sm-5 col-xs-5">
+												<label class="input"> <input type="text"
+													id="serTitle" name="serTitle" placeholder="">
+												</label>
+											</section>
+										</div>
+									</fieldset>
+									<footer>
+										<button type="button" class="btn btn-primary" id="queryBtn">查询</button>
+									</footer>
+								</form>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+			<!-- 查询行 结束 -->
+
+			<!-- 列表行 开始 -->
+			<div class="row">
+				<article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="jarviswidget jarviswidget-color-darken" id="wid-id-0"
+						data-widget-editbutton="true" data-widget-togglebutton="true"
+						data-widget-collapsed="false" data-widget-custombutton="true"
+						data-widget-deletebutton="true"
+						data-widget-fullscreenbutton="true">
+						<header>
+							<span class="widget-icon"> <i class="fa fa-table"></i>
+							</span>
+							<h2>列表信息</h2>
+						</header>
+						<div>
+							<div class="widget-body no-padding">
+								<form id="updateForm" action="" method="post">
+									<table id="listTable"
+										class="table table-striped table-bordered table-hover text-center">
+										<thead>
+											<tr class="info">
+												<th class="text-center" data-field="index">序号</th>
+												<th class="text-center" data-field="serType"
+													data-formatter="serTypeFormatter">服务类型</th>
+												<th class="text-center" data-field="custName">客户</th>
+												<th class="text-center" data-field="serTitle">服务概要</th>
+												<th class="text-center" data-field="serCreateDate">创建日期</th>
+												<th class="text-center" data-field="serDueDate">分配时间</th>
+												<th class="text-center" data-field="serDueName">处理人</th>
+												<th class="text-left" data-formatter="operateFormatter"
+													data-events="operateEvents"><i
+													class="fa fa-fw fa-cog txt-color-blue hidden-md hidden-sm hidden-xs"></i>
+													操作</th>
+											</tr>
+										</thead>
+									</table>
+								</form>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+			<!-- 列表行 结束 -->
+		</div>
+		<!-- 主体内容 结束 -->
+	</div>
+
+	<!-- 包含footer，引入公用 JS -->
+	<script src="../../resources/js/common/footer.js"></script>
+
+	<!-- 引入bootstrap table -->
+	<script type="text/javascript"
+		src="../../resources/common/components/bootstrapTable/tableExport.js"></script>
+	<script type="text/javascript"
+		src="../../resources/common/components/bootstrapTable/jquery.base64.js"></script>
+	<script
+		src="../../resources/common/components/bootstrapTable/bootstrap-table-all.min.js"></script>
+	<script type="text/javascript"
+		src="../../resources/common/components/bootstrapTable/colResizable-1.5.min.js"></script>
+	<script
+		src="../../resources/common/components/bootstrapTable/bootstrap-table-zh-CN.min.js"></script>
+	<script
+		src="../../resources/common/components/bootstrapTable/lodash.min.js"></script>
+
+	<!-- 服务列表js -->
+	<script src="../../resources/js/servicedeal/serviceDealList.js"></script>
+
+</body>
+</html>

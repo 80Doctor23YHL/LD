@@ -1,0 +1,25 @@
+{
+    "list": [
+        {
+            "custCredit": "2",
+            "custCount": 1,
+            "custRate": 25
+        },
+        {
+            "custCredit": "3",
+            "custCount": 1,
+            "custRate": 25
+        },
+        {
+            "custCredit": "4",
+            "custCount": 1,
+            "custRate": 25
+        },
+        {
+            "custCredit": "5",
+            "custCount": 1,
+            "custRate": 25
+        }
+    ],
+    "RET_CODE": "success"
+}

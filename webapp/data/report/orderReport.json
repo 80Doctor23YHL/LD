@@ -1,0 +1,17 @@
+{
+    "total": 2,
+    "RET_CODE": "success",
+    "pageIndex": 0,
+    "rows": [
+        {
+            "custId": "A58B767ED8974CC9BA1143D2A4F6CEB2",
+            "custName": "大连东软信息学院",
+            "ordPrice": "120000.0"
+        },
+        {
+            "custId": "E4E5758F25EA489D802F7BDAB0ACED25",
+            "custName": "北农",
+            "ordPrice": "10000.0"
+        }
+    ]
+}

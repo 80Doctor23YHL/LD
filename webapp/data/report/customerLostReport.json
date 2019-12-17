@@ -1,0 +1,23 @@
+{
+    "list": [
+        {
+            "year": "2015",
+            "total": 1,
+            "normal": 1,
+            "lost": 0
+        },
+        {
+            "year": "2016",
+            "total": 3,
+            "normal": 2,
+            "lost": 1
+        },
+        {
+            "year": "总计",
+            "total": 4,
+            "normal": 3,
+            "lost": 1
+        }
+    ],
+    "RET_CODE": "success"
+}
