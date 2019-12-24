@@ -1,0 +1,25 @@
+{
+    "list": [
+        {
+            "custLevel": "1",
+            "custCount": 1,
+            "custRate": 25
+        },
+        {
+            "custLevel": "2",
+            "custCount": 1,
+            "custRate": 25
+        },
+        {
+            "custLevel": "4",
+            "custCount": 1,
+            "custRate": 25
+        },
+        {
+            "custLevel": "5",
+            "custCount": 1,
+            "custRate": 25
+        }
+    ],
+    "RET_CODE": "success"
+}

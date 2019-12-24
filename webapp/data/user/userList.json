@@ -1,0 +1,55 @@
+{
+    "total": 12,
+    "RET_CODE": "success",
+    "pageIndex": 0,
+    "rows": [
+        {
+            "userId": "0",
+            "userName": "admin",
+            "realName": "管理员",
+            "password": "e10adc3949ba59abbe56e057f20f883e",
+            "roleId": "4",
+            "status": "1"
+        },
+        {
+            "userId": "01679810256D4A29A687192238C841C4",
+            "userName": "zhangjingli",
+            "realName": "张敬礼",
+            "password": "e10adc3949ba59abbe56e057f20f883e",
+            "roleId": "1",
+            "status": "1"
+        },
+        {
+            "userId": "5C0A9C009A0B4F6DA3992E4D281A2A4D",
+            "userName": "lizhuguan",
+            "realName": "李竹管",
+            "password": "e10adc3949ba59abbe56e057f20f883e",
+            "roleId": "2",
+            "status": "1"
+        },
+        {
+            "userId": "85B28F89986F4E95B049BAE04A084CF2",
+            "userName": "baijingli",
+            "realName": "白景丽",
+            "password": "e10adc3949ba59abbe56e057f20f883e",
+            "roleId": "1",
+            "status": "1"
+        },
+        {
+            "userId": "BCB34B58E37F4512AC80D26DCE46F1C4",
+            "userName": "baigaoguan",
+            "realName": "白告关",
+            "password": "e10adc3949ba59abbe56e057f20f883e",
+            "roleId": "3",
+            "status": "1"
+        },
+        {
+            "userId": "CB6EF2BB089B4EE4A0D47E2313B6CAB2",
+            "userName": "wangxiugai",
+            "realName": "王休概",
+            "password": "e10adc3949ba59abbe56e057f20f883e",
+            "roleId": "1",
+            "status": "0"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "total": 2,
+    "RET_CODE": "success",
+    "pageIndex": 0,
+    "rows": [
+        {
+            "ordId": "22ECE8D02DB34B8693ED9BB7D5689381",
+            "custId": "A58B767ED8974CC9BA1143D2A4F6CEB2",
+            "custName": null,
+            "ordPrice": "20000",
+            "ordDate": "2016-09-16"
+        },
+        {
+            "ordId": "825AB6B709DD4CC1AC4DF04B66D1B9BD",
+            "custId": "A58B767ED8974CC9BA1143D2A4F6CEB2",
+            "custName": null,
+            "ordPrice": "100000",
+            "ordDate": "2016-09-29"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+/**
+ * 页头信息
+ */
+document
+		.write('<header id="header">'
+				+ '	<div id="logo-group">'
+				+ '		<span id="logo"><span'
+				+ '			style="margin-left: 20px; font-size: 18px;">客户关系管理系统</span></span>'
+				+ '	</div>'
+				+ '	<div class="pull-right">'
+				+ '		<!-- collapse menu button -->'
+				+ '		<div id="hide-menu" class="btn-header pull-right margin-right-10">'
+				+ '			<span> <a id="toggleMenu" href="javascript:void(0);"'
+				+ '				data-action="toggleMenu" data-placement="left" data-content="收缩菜单"><i class="fa fa-reorder"></i></a>'
+				+ '			</span>'
+				+ '		</div>'
+				+ '		<!-- end collapse menu -->'
+				+ '		<!-- logout button -->'
+				+ '		<div id="logout" class="btn-header transparent pull-right">'
+				+ '			<span> <a href="../login/login.html" data-placement="left" data-content="退出"><i'
+				+ '					class="fa fa-sign-out"></i></a>'
+				+ '			</span>'
+				+ '		</div>'
+				+ '		<!-- end logout button -->'
+				+ '		<!-- search mobile button (this is hidden till mobile view port) -->'
+				+ '		<div class="btn-header transparent pull-right"'
+				+ '			style="margin-top: 20px;">'
+				+ '			<span id="sysUserId">欢迎您&nbsp;管理员</span>'
+				+ '			&nbsp;&nbsp;&nbsp; <span class="hidden-xs" id="sysRoleId">角色:管理员'
+				+ '			</span>&nbsp;&nbsp;&nbsp;' + '		</div>'
+				+ '		<!-- end search mobile button -->' + '	</div>'
+				+ '</header>');

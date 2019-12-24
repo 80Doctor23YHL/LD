@@ -1,0 +1,26 @@
+{
+    "total": 1,
+    "RET_CODE": "success",
+    "pageIndex": 0,
+    "rows": [
+        {
+            "serId": "77E85FF788354E4DBCE5FCDFF667E84C",
+            "serType": "4",
+            "serTitle": "需要一个课程模板",
+            "serStatus": "3",
+            "serRequest": "需要一个课程模板",
+            "custId": "E4E5758F25EA489D802F7BDAB0ACED25",
+            "custName": "北农",
+            "serCreateId": "85B28F89986F4E95B049BAE04A084CF2",
+            "serCreateName": "白景丽",
+            "serCreateDate": "2016-08-31",
+            "serDueId": "85B28F89986F4E95B049BAE04A084CF2",
+            "serDueName": "白景丽",
+            "serDueDate": "2016-08-31",
+            "serDeal": "已提供",
+            "serDealDate": "2016-08-31",
+            "serResult": null,
+            "serSatisfy": null
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "total": 2,
+    "RET_CODE": "success",
+    "pageIndex": 0,
+    "rows": [
+        {
+            "contactId": "8AB4389607B947DBB0B33C324B968E32",
+            "custId": "A58B767ED8974CC9BA1143D2A4F6CEB2",
+            "contactName": "李斯蒂",
+            "sex": "0",
+            "position": "",
+            "phone": "88888881",
+            "mobile": "13567890981",
+            "memo": ""
+        },
+        {
+            "contactId": "DFBE91ECEFB34045970E5809276A90BB",
+            "custId": "A58B767ED8974CC9BA1143D2A4F6CEB2",
+            "contactName": "王烈",
+            "sex": "1",
+            "position": "普通员工",
+            "phone": "88888888",
+            "mobile": "12345678909",
+            "memo": "联系人"
+        }
+    ]
+}

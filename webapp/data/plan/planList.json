@@ -1,0 +1,28 @@
+{
+    "total": 3,
+    "RET_CODE": "success",
+    "pageIndex": 0,
+    "rows": [
+        {
+            "planId": "40D37FA429484F849164970D66CA5EF3",
+            "chanceId": "2624470541654BAC926137A63D35189C",
+            "planDate": "2016-09-13",
+            "planToDo": "确定方案，完成签约",
+            "planResult": "签约成功"
+        },
+        {
+            "planId": "3E0DB2D65B964600B5CF786EF113228A",
+            "chanceId": "2624470541654BAC926137A63D35189C",
+            "planDate": "2016-09-06",
+            "planToDo": "联系客户，讨论细节",
+            "planResult": "细节讨论完成"
+        },
+        {
+            "planId": "EBE5F87DEB5B4424AB2A8B0E471D872A",
+            "chanceId": "2624470541654BAC926137A63D35189C",
+            "planDate": "2016-09-01",
+            "planToDo": "联系客户，初步认识",
+            "planResult": "完成"
+        }
+    ]
+}

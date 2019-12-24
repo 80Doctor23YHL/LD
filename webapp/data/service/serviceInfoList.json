@@ -1,0 +1,26 @@
+{
+    "total": 1,
+    "RET_CODE": "success",
+    "pageIndex": 0,
+    "rows": [
+        {
+            "serId": "53FC449CD6EB4F4C9CB03839E681B478",
+            "serType": "2",
+            "serTitle": "增加学习资源",
+            "serStatus": "4",
+            "serRequest": "学习资源较少，增加学习资源",
+            "custId": "A58B767ED8974CC9BA1143D2A4F6CEB2",
+            "custName": "大连东软信息学院",
+            "serCreateId": "0",
+            "serCreateName": "管理员",
+            "serCreateDate": "2016-08-31",
+            "serDueId": "85B28F89986F4E95B049BAE04A084CF2",
+            "serDueName": "白景丽",
+            "serDueDate": "2016-08-31",
+            "serDeal": "已处理",
+            "serDealDate": "2016-08-31",
+            "serResult": "很满意",
+            "serSatisfy": "5"
+        }
+    ]
+}

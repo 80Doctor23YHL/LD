@@ -1,0 +1,45 @@
+{
+    "total": 2,
+    "RET_CODE": "success",
+    "pageIndex": 0,
+    "rows": [
+        {
+            "serId": "7D52A526CC5245F18A2C1A19E6C4E28C",
+            "serType": "1",
+            "serTitle": "可以学习哪些课程",
+            "serStatus": "2",
+            "serRequest": "可以学习哪些课程",
+            "custId": "F8E53A05521C4817892C8482A5BFD05B",
+            "custName": "沈阳大学",
+            "serCreateId": "85B28F89986F4E95B049BAE04A084CF2",
+            "serCreateName": "白景丽",
+            "serCreateDate": "2016-08-31",
+            "serDueId": "85B28F89986F4E95B049BAE04A084CF2",
+            "serDueName": "白景丽",
+            "serDueDate": "2016-09-06",
+            "serDeal": null,
+            "serDealDate": null,
+            "serResult": null,
+            "serSatisfy": null
+        },
+        {
+            "serId": "895DEDE99CD04AF2AEDDE82ECC049CA5",
+            "serType": "1",
+            "serTitle": "课程怎么创建",
+            "serStatus": "2",
+            "serRequest": "课程怎么创建",
+            "custId": "E4E5758F25EA489D802F7BDAB0ACED25",
+            "custName": "北农",
+            "serCreateId": "0",
+            "serCreateName": "管理员",
+            "serCreateDate": "2016-08-31",
+            "serDueId": "85B28F89986F4E95B049BAE04A084CF2",
+            "serDueName": "白景丽",
+            "serDueDate": "2016-09-06",
+            "serDeal": null,
+            "serDealDate": null,
+            "serResult": null,
+            "serSatisfy": null
+        }
+    ]
+}
